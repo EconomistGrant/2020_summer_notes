@@ -38,8 +38,3 @@ how long since they paid?
 
 < 90 days    0.1%
 over 90 days 1.0%
-
-
-# 
-Sarah Kefi
-Lorraine Felix

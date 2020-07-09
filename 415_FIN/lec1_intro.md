@@ -46,3 +46,45 @@ Is a set of trades such that
 
 ## Law of One Price(LOP)
 in a well functioning(frictioness) financial market, there should be no arbitrage oppurtunities
+
+## Overview of the financial market
+Page 31
+Household -> Labor Market -> Nonfinancial Firms -> Product Market -> Household
+Household <-> Financial Market & Intermediaries <-> Nonfinancial Firms
+
+## Financial Market
+Security Market: financial assets/claims/contracts are traded
+- Money market, short term debt securities (<12 months)
+- Capital market, long term securities
+- Derivatives, securities with payoffs tied to other prices
+
+Financial Intermediaries: own mostly financial assets
+- Banks, insurance, S&L, ..
+- Mutual funds, hedge funds, PE funds, ...
+  
+Nonfinancial firms - own mostly real assets
+Households - own both real and financial 
+Governments - own both real and financial
+
+## Key economic roles of the financial market
+1. Allocating resources
+   - across time(borrow money to buy a home)
+   - across different states of the economy (savings -> stocks)
+2. Price discovery
+  
+### Market Imperfections/frictions
+- Transaction costs
+misssing markets, access cost, trading cost, liquidity, position/trading constraints, ...
+- Information asymmetry
+different stakeholders, corporate managers/fin market, different market participants, ...
+- Taxes
+corporate taxes, personal taxes...
+
+## Principles of Finance
+1. no free lunch
+2. other things equal:
+   - prefer more money to less (non-satiation)
+   - prefer to avoid risk (risk-aversion)
+   - prefer money now to later (impatience)
+3. financial market prices shift to equalize supply and demand
+4. market imperfections are central to financial innovation
