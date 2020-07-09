@@ -7,7 +7,8 @@ accrual AR - AP: unreceived cash, but revenue recognized
 
 # Revenue Recognition
 types of fraud: 50% misstated revenue!
-old revenue recognition standard SFAS 5, 1984: 
+## old recognition standard 
+SFAS 5, 1984: 
 earned? is the earnings process substantially complete?
 collectible: is cash collection reasonably assured?
 
@@ -29,5 +30,12 @@ HP alleged that Autonomy coverted [software service deals] to [software licensin
 licensing deals: upfront revenue recognition
 software service: revenue over time as service provided
 
-new recognition
-1. identify the contract with a customer
+## new recognition
+ASU 2014-09 effective 12/15/17
+1. Identify the contract with a customer
+2. Identify the performance obligations in the contract
+3. Determine the transaction price
+4. Allocate the transaction price
+5. Recognize revenue as the entity satisfies the performance obligations
+
+a bundle of goods: proportion, retail price(Spartan package)
