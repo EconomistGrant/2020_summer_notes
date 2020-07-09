@@ -9,7 +9,7 @@ P = the price at t0
 pay $1 in a single state and nothing o/w  \
 A-D claim on state j (the only state having payoff) \
 price of A-D cliam: $\phi_j > 0$ given no arbitrage  \
-complete maket: one can effectively trade A-D securities on each state \
+complete maket: one can effectively trade A-D securities on each state 
 
 
 # Arbitrage pricing and present value
