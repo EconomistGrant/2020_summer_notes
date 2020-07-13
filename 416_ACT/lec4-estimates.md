@@ -15,7 +15,11 @@ aging method: based on the age of the receivables (longer, less likely)
 ## Percentage of sales
 revenue expenses
 4% allowance expense 
-write off (-A/R, -Allowance)
+
+colection (real collected ammount, -cash, -A/R)
+write off (real defaul amount, -A/R, -Allowance)
+
+as a result, A/R will set to zero
 
 underestimate?
  
@@ -38,3 +42,29 @@ how long since they paid?
 
 < 90 days    0.1%
 over 90 days 1.0%
+
+
+# Recitation 4
+new recognition: works for bundles well, proportion
+mathing principle: match all expenses to associated revenues
+Allowance Accounts: estimate future expenses
+
+We will focus today: Allowance for Doubtful Accounts (ADA) & Bad Debt Expense (BDE)
+ADA on Asset, BDE on I/S, everytime set up BDE, increase ADA
+ADA works against A/R and represents our best estimate of uncollectible accounts
+ADA decreases A/R and decreases total assets
+
+underestimate doubtful accounts: new bad debt expense, expand ADA, decrease R/E
+overestimate doubtful accounts: roll over extra ADA for future
+
+# Allowance for Return Allowance
+If customer has the right to return the product
+stays on the Liability side, also functions to decrease A/R(much like ADA)
+
+when return actually occurs, reduces ARA and A/R
+
+# Take-away
+allowing customers to buy on credit, generate higher revenues, but having risks of bad debts and returns
+
+ADA, BDE, write-off
+big picture: how to interpret accounting information
