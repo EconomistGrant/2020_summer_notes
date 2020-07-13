@@ -25,3 +25,13 @@ k -> inf, EPR -> e^r, compound continuously
 20% Down payment, and borrow the rest from bank using property as collateral
 fixed monthly payment 
 have an option to prepay
+
+400,000 = sum_t [M / (1 + APR / k) ^ t]
+
+# Other Issues
+Taxes
+Currencies
+Forecasting cash flows, not biased
+Choosing the right discount rate: 
+risk free interest rate (time value)
+risk adjustment(risk premium)
