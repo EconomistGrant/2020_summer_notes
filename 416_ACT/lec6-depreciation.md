@@ -27,3 +27,9 @@ change of policy: calculate remaining useful life, salvage value, net book value
 # Impairment Loss
 + Accum. Depr - RE (Impairment Loss)
 
+# Recitation 5
+acquire PPE: capital expenditures (CAPEX) and are capitalized
+
+depreciation: systematic allocation of the cost of an asset to expense over time
+
+gains and losses will go into income statements, not the selling of asset (if no loss/gain incurred)
