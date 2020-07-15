@@ -58,4 +58,4 @@ negative: raise cash from debtholder and stockholder
 question: does positive change in working capital basically means increase in A/R is faster than increase in A/P? how is this related to A/R collection & A/P payment period?
 or essentially why increasing working capital -> working capital becomes a source of cash?
 
-increase in A/R, havn't gone in cash?
+increase in A/R, havn't gone in cash???
