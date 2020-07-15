@@ -42,3 +42,31 @@ defer revenue / understate income
 decrease income
 
 # Incentive to hide profits
+
+# 714 Recitation
+Brand Value: Apple, $205.5B
+Focus on R&D
+capitalizing: increase assets, increase net income
+
+tangible: depreciation
+intangible:amortization
+
+"depr. & amortization expense"
+
+materiality: change the perspective of the investor? (5 ~ 10%)
+
+Book-to-Market = Book Value of Equity / Market Capitalization
+B/M high, stock is considered a cheap ("Value")
+Expense too much: Book Value of Equity will be low
+
+B/M value loses its predictablity in the past times
+
+## Unearned Revenue
+Liabilities!
+R/E is stock, I/S is flow
+
+Unearned Revenue | Increase in Book Value | Increase in Net Income|
+     x                      x                       -
+     y                      y                     y - x
+
+you are recognizing y instead of x (which was recognized the year earlier)
