@@ -10,5 +10,3 @@ A = L + SE
 delta A = delta L + delta SE
 
 delta Cash = -delta non-cash Assets + delta L + delta SE
-
-# Amazon Performance
