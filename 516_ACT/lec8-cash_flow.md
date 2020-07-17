@@ -14,6 +14,7 @@ delta Cash = -delta non-cash Assets + delta L + delta SE
 # Statement of Cash Flows: Three Sections
 1. Operating, primary business activities
    - Selling goods or rendering services
+   - interest/dividend, interest payment
 2. Investing, acquiring and selling productive assets
    Acquisition and disposal of PPE
    Purchase/Sale of other firms' stock/debt
@@ -55,7 +56,22 @@ CFO - capital expenditures = Free cash flow
 
 negative: raise cash from debtholder and stockholder
 
-question: does positive change in working capital basically means increase in A/R is faster than increase in A/P? how is this related to A/R collection & A/P payment period?
-or essentially why increasing working capital -> working capital becomes a source of cash?
+# Recitation
+Sell inventory costing 300 for 500
+Cash from Operations: subtract increase in AR, add decrease in inventory
 
-increase in A/R, havn't gone in cash???
+Cash Flow Statement: Two Methods
+Direct: break out net cash flows by sub-category
+
+Indirect: start with net income, adjustments, end up with operating cfs
+NI
+- non-cash current assets. delta AR, delta Inventory
++ delta liabilities
++- losses/gains from investing activities
+= Cash Flow From Operations
+
+
+# Product Life Cycle on Cash Flows
+Financing ( + -> -) -> 
+Operating ( - -> + -> 0) -> 
+Investing ( - -> + -> 0)
