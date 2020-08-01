@@ -1,0 +1,67 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+```{r}
+plot(cars)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+# lec 3
+# Simple 20-Step Random Walk
+
+p  <- 0.5;q <- 1-p;  # Set probability of "success" and "failure" 
+Nt <- 20;                # Number of time steps 
+Np <- 1;                 # Number of sample paths 
+z  <- matrix(runif(Nt*Np),nrow=Nt)   # Generate a set of uniform random draws 
+x  <- sign(p-z);         # Transform to binomial random variable +/- 1 
+s  <- matrix(0,Nt+1,Np)  # Initial value for random walk. 
+                         # Note that R indices start with 1,not zero. 
+for (k in 1:Nt) { 
+  s[k+1,] <- s[k,]+x[k,]  # New location equals previous plus a new random step 
+} 
+
+plot(s,type="b")         # Plot resulting path
+
+```
+
+Lognormal price process
+```{r}
+# One-year daily walk
+Nt <- 252;               # Number of trading days in a year 
+Np <- 1e4;               # Reasonably large number of simulations 
+z  <- matrix(runif(Nt*Np),nrow=Nt)   # Generate a set of uniform random draws 
+x  <- sign(p-z);         # Transform to binomial random variable +/- 1 
+s  <- matrix(0,Nt+1,Np)  # Initialize and reserve space for random paths. 
+for (k in 1:Nt) { s[k+1,] <- s[k,]+x[k,]  # New location equals previous plus a new random step 
+} 
+
+matplot(s[,1:3],type="b")         # Plot a few of the resulting paths
+
+```
+```{r}
+sigma <- 0.3      # Set annualized volatility to 30% 
+mu    <- 0.1      # Set annualized drift/return to 10% 
+dt <- 1/252       # Set time step scale factor to one day, (252 trading days per year) 
+
+z  <- matrix(rnorm(Nt*Np),nrow=Nt)  # Generate a set of standard normal random draws 
+r  <- mu*dt + z*sigma*sqrt(dt)      # Draw daily return from scaled N(mu,sigma^2)
+
+r  <- matrix(rnorm(Nt*Np, mean=mu*dt, sd=sigma*sqrt(dt)),nrow=Nt) # 1-step generation 
+s  <- matrix(0,Nt+1,Np) 
+for (k in 1:Nt) { 
+  s[k+1,] <- s[k,]+r[k,] # prices of row k+1 (with Np number of stocks) = prices of row k + return on day r+1
+  } 
+P <- exp(s) 
+matplot(P[,1:3],type="l") # show column 1:3 (stock1,2,3)
+```

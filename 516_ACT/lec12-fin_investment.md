@@ -54,3 +54,18 @@ pay premium: believe the company has unrecorded patents of $5 per share * 1000 s
 ## Control: Consolidation
 >50% ownership
 consolidated financial statements: eliminate intercorporate transactions
+
+Consolidating accounting:
+adjustment S and A (shareholders equity & premium in assets)
+S: -R/E and C/S of controlled
+A: +Asset in premium 
+S + A = Total Investment
+
+less than 100% : 
+contra account in R/E: minority interest
+
+## 49%
+Liability management, take liability off the book
+don't consolidate debt on B/S
+
+
