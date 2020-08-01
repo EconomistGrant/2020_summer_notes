@@ -31,4 +31,22 @@ Earnings Without Interest Expense EBITDA
 ROE: Income / E
 Focus on Ending E, but Average E is better
 
+# Efficiencvy Ratios
+Operating Efficiency: 
+Asset Turnover = Revenue / Total Asset
+A/R Turnover = Revenue / A/R (Days Receivable = 365 / AR Turnover)
+Inventory Turnover = COGS / Ending Inventory
 
+Dupont ROE = NI / SE = NI/A * A/E
+                     = NI/Sales * Sales/A * A/E
+
+easiest for managers: Sales / Asset
+
+Amazon: 12.3% = 0.017 * 1.63 * 4.32
+Walmart: 17.2% = 0.03 * 2.42 * 2.48
+
+understand drives of profitability
+
+# Recitation 9
+Ratio Analysis: add same amount both side -> approaches to 0
+Take Average SE in ROE: roughly the amount through the year we "used" to generate returns

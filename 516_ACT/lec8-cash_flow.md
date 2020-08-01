@@ -75,3 +75,18 @@ NI
 Financing ( + -> -) -> 
 Operating ( - -> + -> 0) -> 
 Investing ( - -> + -> 0)
+
+# Reciation
+an asset, 1500, depr 500, sell for 1800 cash
+Gain 800
+
+CFO 
+CFI 1800? (-1500 when buying)
+CFF 
+
+direct: accounts by accounts
+indirect: NI plus Depr less increase in A/R less increase in inventory...
+
+sell factory listed 100 for 80
+SCF: CFO => Add back $20 to NI (indirect method)
+     CFI => Record proceeds of $80
