@@ -20,7 +20,8 @@ delta Cash = -delta non-cash Assets + delta L + delta SE
    Purchase/Sale of other firms' stock/debt
 3. Financing, Related to external sources of financing
    issuing stock
-   payment of dividend/debt
+   payment of dividend
+   repurchase debt; payments of long-term debt
 
 # Amazon
 difference between Amazon CFO and Net Income: depr, stock-based compensation, operating assets/liabilities

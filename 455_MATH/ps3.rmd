@@ -1,0 +1,58 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+Question 4
+```{r}
+MCpaths <- function(Nt,Np,mu,sigma,dt) {
+  z <- matrix(rnorm(Nt*Np),nrow=Nt)
+  r <- mu*dt + z*sigma*sqrt(dt)
+  s <- matrix(0,Nt+1,Np)
+  for (k in 1:Nt){
+    s[k+1,]<-s[k,]+r[k,]
+  }
+  return(s)
+}
+s <- MCpaths(252,10000,0.1,0.3,1/252)
+S <- exp(s)*100
+terminal <- S[253,]
+hist(terminal,breaks = 50)
+```
+```{r}
+mean(terminal)
+sd(terminal)
+```
+
+```{r}
+return = rep(NA, 10000)
+
+for (k in 1:10000){
+  for (day in 2:253){
+    if (S[day,k] <= 100){
+      return[k] <- (day - 1)
+      break
+    }
+  }
+}
+
+mean(return, na.rm=TRUE)
+```
+European Call payoff
+```{r}
+C = rep(0,10000)
+for (k in 1:10000){
+  C[k] <- max(terminal[k]-100, 0)
+}
+mean(C)
+```
+European Put payoff
+```{r}
+
+P = rep(0,10000)
+for (k in 1:10000){
+  P[k] <- max(100-terminal[k], 0)
+}
+mean(P)
+```
+```
