@@ -70,7 +70,7 @@ $(1+y)MD = t$
 
 ## Macaulay Duration
 $$
-D = \sum\limits_{t=1}^T(\frac{PV(CF_t)}{B})t = \frac{1}{B} \sum\limits_{t=1}^T(\frac{CF_t}{(1+y)^t})
+D = \sum\limits_{t=1}^T(\frac{PV(CF_t)}{B})t = \frac{1}{B} \sum\limits_{t=1}^T(\frac{tCF_t}{(1+y)^t})
 $$
 
 $$

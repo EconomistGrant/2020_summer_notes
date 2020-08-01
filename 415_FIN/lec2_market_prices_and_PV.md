@@ -42,5 +42,5 @@ discount rate: oppurtunity cost of capital(COC)
 # Nominal, Real cash flow, rate of returns
 real CF = Nominal CF / (1+inflation)
 r_real: real rate of return (inflation-adjusted)
-= (1_r_nominal)/(1+i) - 1
+= (1+r_nominal)/(1+i) - 1
 = r_nominal - i (only when both are fairly small)
