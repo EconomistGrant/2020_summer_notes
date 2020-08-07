@@ -51,3 +51,44 @@ skewness: symmetric? options have high skewness
 kurtosis: fat tails? not normal, Dec.2008 5.8 sd, should happen once in 10 million yr!
 
 # Dependence: correlation
+Correlation table (1926 - 2018)
+inflation up, t-bill up, long-term treasury down, stock unchange
+
+Series correlations: week
+
+# Portfolio
+a collection of assets
+Composition: Ni shares of asset i. weight: NiPi / sum(NiPi) 
+V = 0: arbitrage portfolio
+V > 0: sum w = 1
+
+Mortgage:
+Home     1  500k  500%
+Mortgage 1 -400k -400%
+Total             100%
+Leverage ratio = 5 = asset value / net investment
+
+Leveraged decline = leverage ratio * original investment decline
+
+# Portfolio risk and return
+diversification: reduce unnecessary risk
+enhance performance by focusing bets (hedging)
+customize and manage risk/reward trade-offs
+
+mean-variance: expected value and variance
+expected return: weighted average of return 
+symmetric covariance matrix
+sigma_p ^2 = sum(wi sigma_i) ^2 + 2sum(wiwj sigma_ij)   i < j
+        = w^t M w
+
+portfolio variance can be smaller than all individual variance
+# Systematic & Idiosyncratic Risk
+Diversifiable risk - idiosyncratic
+non diversifiable - systematic: business cycle, inflation, liquidity
+
+consider an equally-weigthed portfolio
+Variance = n * (1/n^2) sigma_ii + sum[(1/n^2) sigma_ij]
+         = 1/n * [average_variance] + (n^2 - n / n^2) [average_covariance]
+         = 1/n [average_variance] + (1 - 1/n) [average_covariance]
+
+when n -> inf: average covariance dominates

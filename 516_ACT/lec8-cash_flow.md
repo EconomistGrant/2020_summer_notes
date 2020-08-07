@@ -39,9 +39,9 @@ Add/Subtract Gain/Losses
 Add/Subtract changes in non-cash working capital accounts
 
 NI
-+Depr
-+Stock Compensation
-+Other
++Depr (non cash expense)
++Stock Compensation (non cash expense)
++gain with investing activities
 -Change in Working Capital (AR - AP, decreasing means source of cash, colleting A/P quiker, get in cash quicker)
 = CFO
 
