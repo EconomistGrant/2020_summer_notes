@@ -48,4 +48,5 @@ N(x) = delta(C) / delta(S)
 
 # VIX
 composite summary of implied vols across call and put options with different strike prices
-
+indicator of future market volatility
+in financial crisis: vix reach very high values

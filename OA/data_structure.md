@@ -41,7 +41,7 @@ make_heap再sort_heap可以实现排序
 
 ## array
 int myints[] ={1,2,3};
-
+vector<int> vec(myints, myints+3);
 # Queue
 first in first out
 queue<string> q;

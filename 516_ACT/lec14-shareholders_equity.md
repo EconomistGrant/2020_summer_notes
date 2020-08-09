@@ -96,7 +96,10 @@ weighted by fraction of the year
 
 diluted:
 Add-back to NI = convertible preferred dividends + after-tax convertible debt interst
+- preferred dividends
+
 diluted shares = shares of stock options and convertible assumed to convert
 
 all converted
-options: additional option shares = option shares * exercise price  / market price
+options: 
+option shares - option shares * exercise price  / market price (proceeds used to buy shares for company)

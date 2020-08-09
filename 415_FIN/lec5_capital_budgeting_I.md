@@ -20,9 +20,7 @@ include investment in working capital as capital expenditure
 CF = Project Cash Inflows - Project Cash Outflows
    = Operating Revenue - Operating Expenses without depr - Taxes - CapEx
 
-   = (1-t) [Operating Profit] - [Capital Expenditures] + (t)[ Depreciation ]
-
-   = Profit(after tax) - change in inventory (actually, working capital)
+   = (1-t) [Operating_Profit] + (t)[Depreciation] - [CapEX]  - change in [Working_Capital]
 
 
 # Discount rate and project interaction

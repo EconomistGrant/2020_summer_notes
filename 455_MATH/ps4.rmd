@@ -1,0 +1,72 @@
+---
+title: "R Notebook"
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
+---
+
+```{r}
+setwd("C:/Users/10459/Desktop/work_sync/summer_notes/455_MATH")
+data = read.csv(file = "PS4-data.csv", header = TRUE)
+```
+
+```{r}
+# descriptive data
+mean(data[,1])
+sd(data[,1])
+print("---")
+mean(data[,2])
+sd(data[,2])
+print("---")
+mean(data[,3])
+sd(data[,3])
+print("---")
+mean(data[,4])
+sd(data[,4])
+print("---")
+mean(data[,5])
+sd(data[,5])
+```
+
+```{r}
+# Stationarity Test
+library(tseries)
+adf.test(data[,1])["p.value"]
+adf.test(data[,2])["p.value"]
+adf.test(data[,3])["p.value"]
+adf.test(data[,4])["p.value"]
+adf.test(data[,5])["p.value"]
+```
+```{r}
+acf(data[,1])
+pacf(data[,1])
+# Chose AR(1)
+# Since it has oscillating decay in ACF, and only has 1 spike in PACF
+```
+
+```{r}
+acf(data[,2])
+pacf(data[,2])
+# Chose AR(3), three spikes in PACF, decay in ACF
+```
+```{r}
+acf(data[,3])
+pacf(data[,3])
+# Chose AR(3)
+```
+```{r}
+acf(data[,4])
+pacf(data[,4])
+# Chose MA(2)
+```
+
+
+
+
+```{r}
+acf(data[,5])
+pacf(data[,5])
+# Chose MA(1)
+```

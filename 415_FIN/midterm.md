@@ -1,7 +1,5 @@
 # Remaining issues
-1. CF calculation details (tax shield?)
-2. Duration derivation: take derivatives?
-3. Stock price valuation: look at questions
+1. Stock price valuation: equity, Q4
 - How P/B value works? there is a question I guess? Book value increases because of "Plow-back"?
 4. Swap, fixed arm rate derivation
 5. Option picing: some spreads, the question you failed to answer
@@ -36,7 +34,7 @@ justification for **value maximization**: shareholders can adjust time frame/ris
 "commom objective": maximizing current *market* value (not shareholder valuation!)
 
 CF calculation: 
-(1-t)[Operating_Profit] - [Capital_Expenditures] + (t)[Depreciation]
+(1-t) [Operating_Profit] + (t)[Depreciation] - [CapEX]  - change in [Working_Capital]
 **working capital in capital expenditures? check problem sets**
 
 alternative rules: payback period, internal rate of return, profitability index

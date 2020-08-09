@@ -26,9 +26,14 @@ governance problem: makes managers safer
 hold 49%: accounting more favorable 
 
 # Passive Investments
-held-to-maturity (debt): acquired with the ability and intent to hold to maturity
-trading securities (debt / equity): short term profit potential
-available for sale (debt): securities not classified as either of above
+held-to-maturity (debt): 
+acquired with the ability and intent to hold to maturity
+
+trading securities (debt / equity): 
+short term profit potential
+
+available for sale (debt): 
+securities not classified as either of above
 before dec. 2017, equity could be listed
 
       B/S Effect    I/S Effect
