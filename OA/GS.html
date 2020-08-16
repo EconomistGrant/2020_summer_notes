@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.18.1/lib/index.min.js">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it-texmath@0.6.5/css/texmath.css">
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/goessner/mdmath/master/css/vscode-texmath.css">
+
+</head>
+<body class="markdown-body">
+<h1 id="maximal-commonality" data-line="0" class="code-line">Maximal Commonality</h1>
+<p data-line="1" class="code-line">dp, string.find(), 考虑前后两个substr</p>
+<h1 id="grid-game" data-line="2" class="code-line">Grid Game</h1>
+<p data-line="3" class="code-line">trivial, 读懂题</p>
+<h1 id="matrix-game" data-line="4" class="code-line">Matrix game</h1>
+<p data-line="5" class="code-line">本质上排序。先把每一列排序。再根据每一列最大值，第二大值，。。。排序</p>
+<p data-line="7" class="code-line">然后奇数和 - 偶数和</p>
+<h1 id="%E5%88%86%E6%95%B0%E6%8E%92%E5%90%8D" data-line="8" class="code-line">分数排名</h1>
+<p data-line="9" class="code-line">找出平均分最高的人的分数
+负数要取floor？ floor((double)-123/10)</p>
+<p data-line="12" class="code-line">保留两位小数</p>
+<h1 id="latest-student" data-line="14" class="code-line">latest student</h1>
+<p data-line="15" class="code-line">感觉差不多，做一个map，map到pair&lt;int, int&gt;，记录总分和次数
+，最后变成pair，排序，先根据平均值
+算除法的时候记得 double a = (double) 10/3</p>
+<pre><code data-line="18" class="code-line language-c++"><div>(<span class="hljs-keyword">double</span>)((<span class="hljs-keyword">int</span>)(<span class="hljs-number">123.76789</span> * <span class="hljs-number">100</span> + <span class="hljs-number">0.5</span>))/<span class="hljs-number">100</span>
+</div></code></pre>
+<h1 id="lc-70-climbing-ladder" data-line="21" class="code-line">LC 70, climbing ladder</h1>
+<p data-line="22" class="code-line">经典dp</p>
+<h1 id="%E6%89%BEarray%E4%B8%AD%E7%AC%AC%E4%BA%8C%E5%B0%8F%E7%9A%84%E6%95%B0%E5%AD%97-heap" data-line="23" class="code-line">找array中第二小的数字 heap</h1>
+<h1 id="lc-385-first-unique-char" data-line="25" class="code-line">LC 385 First Unique Char</h1>
+<h1 id="isanagram" data-line="27" class="code-line">isAnagram</h1>
+<h1 id="%E5%92%8C%E4%B8%BAk%E7%9A%84pair%E7%9A%84%E4%B8%AA%E6%95%B0" data-line="29" class="code-line">和为k的pair的个数</h1>
+<h1 id="compress-string" data-line="31" class="code-line">Compress String</h1>
+<p data-line="32" class="code-line">aaabbbcccc -&gt; a3b3c5</p>
+<h1 id="reverse-sentence" data-line="34" class="code-line">Reverse sentence</h1>
+<h1 id="strange-sorting-problem" data-line="36" class="code-line">strange sorting problem</h1>
+<p data-line="37" class="code-line">int b; b = atoi(a.c_str());
+map -&gt; vector&lt;pair&lt;string, int&gt;&gt; -&gt; sort
+how to retain order???</p>
+<h1 id="%E6%9C%80%E5%A4%A7%E7%9A%84-%E6%9F%90%E4%B8%A4%E4%B8%AA%E6%95%B4%E6%95%B0%E5%92%8C-%E7%9A%84%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0" data-line="40" class="code-line">最大的 某两个整数和 的出现次数</h1>
+<p data-line="41" class="code-line">统计频率 排序？</p>
+<h1 id="rotatestring" data-line="43" class="code-line">rotateString</h1>
+<p data-line="44" class="code-line">先求净影响。分两部分，前面的移到最后，后面的reverse再移到前面</p>
+<h1 id="spiral-order-primes" data-line="46" class="code-line">Spiral Order Primes</h1>
+<p data-line="47" class="code-line">怎么spiral, 记录当前的row, col, dir, 还能走的步数dir_max(size4)
+用dp做一个prime vector, 然后转成unordered_set
+0,1,2,3 上下左右
+while (ture)
+if dir = 0, 上面是否访问过，访问过就dir = 3, continue; 没访问过就往前走，记录走过，</p>
+
+</body></html>
