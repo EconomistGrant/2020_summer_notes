@@ -29,5 +29,3 @@ $$
 
 ## Autocorrelation
 correlated: non-vanishing cross-terms in the variance of q-sum
-
-C

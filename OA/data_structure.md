@@ -8,20 +8,22 @@ map, unordered_map, map, vector, heap, queue, stack
 刷题的时候调用都直接上网搜调用，习惯太差
 
 # 数据结构的基础调用
+multiset<int> window(nums.begin(), nums.begin() + k); # 抽取前k个元素
+
 ## map / unordered_map
-//insert
+insert
 map[key] = value;
 map.insert(make_pair<int, string>(222, "Songhao"))
-//find
+find
 map.find(key_value) //return an iterator
-//delete 
+delete 
 map.erase(key)
-//iterate
+iterate
 for (iter = map.begin(); iter != map.end(); ++iter){iter -> first;}
-//update
+update
 map[key]++; //useful to count!
-//convert and sort
-vector<pair<int,int>> vec(map.begin(), map.end())
+convert and sort
+vector< pair<int,int> > vec(map.begin(), map.end())
 sort(vec.begin(), vec.end())
 
 ## vector
@@ -42,10 +44,20 @@ make_heap再sort_heap可以实现排序
 ## array
 int myints[] ={1,2,3};
 vector<int> vec(myints, myints+3);
+
+## Multiset
+multiple elements can have equivalent values; store elements in a specific order
+insert, remove
+
 # Queue
 first in first out
 queue<string> q;
 q.front(), q.pop(), q.push()
 
 # Stack
-s.pop, s.top(), s.push()
+s.top(), s.pop, s.push()
+
+# Iterator
+auto mid = next(window.begin(), k / 2);
+mid++;mid--
+

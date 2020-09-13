@@ -9,7 +9,7 @@ project-wide and time-wide (non-flat term structure)
 
 ## CAPM
 $$
-\bar{r_project} = r_F + \beta_project * (\bar{r_M} - r_F)
+\bar{r_{project}} = r_F + \beta_{project} * (\bar{r_M} - r_F)
 $$
 
 beta: 
@@ -56,7 +56,7 @@ if you have a risk-free return such as sale of ppe, discount that with risk-free
 required rate of return, cost of capital, expected rate of return, ...
 
 use 
-1. physical probabiliry + risk-adjusted rate of return or 
+1. physical probability + risk-adjusted rate of return or 
 2. risk-free probability + risk free rate
 ## Concept Checks:
 1. Startup have higher required rate of return than market portfolio since they have higher risks as measured by return volatility
@@ -104,3 +104,12 @@ you are buying a call option as well in 90'
 
 current NPV of model B as S, develop over 90 - 93: new estimation, new "stock price", whether to exercise
 investment of model B as K
+
+estimate volatility based on traded asset?
+Euro Call Option Pricing
+
+## Analysis
+DCF will underestimate strategic options
+Follow-on investment / tining - american call
+abandonment investment - american put 
+scale options - conversion
